@@ -11,13 +11,13 @@ tab1, tab2 = st.tabs(["Encrypt", "Decrypt"])
 with tab1:
   st.header('Encryption', anchor=False)
   encrypt_text = st.text_area('Input your text', key=1)
-  encrypt_key = st.number_input('Insert a key from 1 -25', min_value=0, step=1, key=2)
+  encrypt_key = st.number_input('Insert the key length', min_value=0, step=1, key=2)
   encrypt_button = st.button('Encrypt', type="primary", use_container_width=True)
 
 with tab2:
   st.header('Decryption', anchor=False)
   decrypt_text = st.text_area(label='Input your text', key=3)
-  decrypt_key = st.number_input('Insert a key', min_value=0, step=1, key=4)
+  decrypt_key = st.number_input('Insert the key length', min_value=0, step=1, key=4)
   decrypt_button = st.button('Decrypt', type="primary", use_container_width=True)
 
 
