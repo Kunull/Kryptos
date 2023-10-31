@@ -5,7 +5,7 @@ st.set_page_config(
 )
 
 st.title('D|Cipher',anchor=False)
-st.subheader('Web-based toolkit that uses Python to encrypt and decrypt your text.')
+st.subheader('Cryptography toolkit that allows users to encrypt and decrypt their text using an algorithm of their choice.')
 
 st.divider()
 
