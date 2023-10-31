@@ -1,1 +1,1 @@
-streamlit_options_menu
+streamlit-option-menu
