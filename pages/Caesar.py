@@ -45,7 +45,10 @@ def decrypt(text, key):
   return result
 
 if encrypt_button == True:
+  st.header('Cipher text', anchor=False)
   st.write(encrypt(encrypt_text, encrypt_key))
-elif decrypt_button == True:
-  st.write(decrypt(decrypt_text, decrypt_key))
 
+elif decrypt_button == True:
+  st.header('Plain text', anchor=False)
+  st.write(decrypt(decrypt_text, decrypt_key))
+  
