@@ -1,6 +1,8 @@
 import streamlit as st
 
-
+st.set_page_config(
+  page_title="D|Cipher"
+)
 
 st.title('D|Cipher',anchor=False)
 st.subheader('Web-based toolkit that uses Python to encrypt and decrypt your text.')
