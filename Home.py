@@ -5,10 +5,8 @@ st.set_page_config(
 )
 
 st.title('D|Cipher',anchor=False)
-st.subheader('Cryptography toolkit that allows users to encrypt and decrypt their text using an algorithm of their choice.')
-
 st.divider()
-
+st.subheader('Cryptography toolkit that allows users to encrypt and decrypt their text using an algorithm of their choice.')
 st.write("Made by " "[Kunal Walavalkar](https://kunalwalavalkar.vercel.app)")
 
 # st.text('Made by Kunal Walavalkar.')
