@@ -20,7 +20,6 @@ with tab2:
   decrypt_key = st.number_input('Insert the key length', min_value=0, step=1, key=4)
   decrypt_button = st.button('Decrypt', type="primary", use_container_width=True)
 
-
 def encrypt(text, key):
   rail = [['\n' for i in range(len(text))]
     for j in range(key)]
