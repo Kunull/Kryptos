@@ -1,7 +1,7 @@
 # D|Cipher
 Cryptography toolkit that allows users to encrypt and decrypt their text using an algorithm of their choice.
 
-## Includes
+## Included algorithms
 
   - [Base 64](https://en.wikipedia.org/wiki/Base64)
   - [Caesar](https://en.wikipedia.org/wiki/Caesar_cipher)
