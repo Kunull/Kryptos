@@ -2,10 +2,10 @@ import streamlit as st
 import math
 
 st.set_page_config(
-  page_title="D|Cipher"
+  page_title="Transposition | Kryptos"
 )
 
-st.title('Transposition | Kryptos', anchor=False)
+st.title('Transposition cipher', anchor=False)
 
 tab1, tab2 = st.tabs(["Encrypt", "Decrypt"])
 
