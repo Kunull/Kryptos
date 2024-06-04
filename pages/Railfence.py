@@ -4,7 +4,7 @@ st.set_page_config(
   page_title="D|Cipher"
 )
 
-st.title('Railfence cipher', anchor=False)
+st.title('Railfence | Kryptos', anchor=False)
 
 tab1, tab2 = st.tabs(["Encrypt", "Decrypt"])
 
