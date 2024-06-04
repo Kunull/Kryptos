@@ -5,7 +5,7 @@ st.set_page_config(
   page_title="D|Cipher"
 )
 
-st.title('Reverse cipher', anchor=False)
+st.title('Reverse | Kryptos', anchor=False)
 
 tab1, tab2 = st.tabs(["Encrypt", "Decrypt"])
 
