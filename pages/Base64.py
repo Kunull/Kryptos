@@ -2,7 +2,7 @@ import streamlit as st
 import base64
 
 st.set_page_config(
-  page_title="Kryptos"
+  page_title="Base64 | Kryptos"
 )
 
 st.title('Base64 cipher', anchor=False)
