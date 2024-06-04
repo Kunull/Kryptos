@@ -1,10 +1,10 @@
 import streamlit as st
 
 st.set_page_config(
-  page_title="D|Cipher"
+  page_title="Railfence | Kryptos"
 )
 
-st.title('Railfence | Kryptos', anchor=False)
+st.title('Railfence cipher', anchor=False)
 
 tab1, tab2 = st.tabs(["Encrypt", "Decrypt"])
 
