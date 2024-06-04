@@ -1,7 +1,7 @@
 import streamlit as st
 
 st.set_page_config(
-  page_title="D|Cipher"
+  page_title="Kryptos"
 )
 
 st.title('D|Cipher',anchor=False)
