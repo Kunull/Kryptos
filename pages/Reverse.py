@@ -2,10 +2,10 @@ import streamlit as st
 import base64
 
 st.set_page_config(
-  page_title="D|Cipher"
+  page_title="Reverse | Kryptos"
 )
 
-st.title('Reverse | Kryptos', anchor=False)
+st.title('Reverse cipher', anchor=False)
 
 tab1, tab2 = st.tabs(["Encrypt", "Decrypt"])
 
